@@ -1,6 +1,6 @@
 
-if game.PlaceId == 2753915549 then
+if game.PlaceId == "2753915549" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/Blox%20Fruits"))()
-elseif game.PlaceId == 537413528 then
+elseif game.PlaceId == "537413528" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/Build%20A%20Boat"))()
 end
