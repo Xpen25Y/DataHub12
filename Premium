@@ -1,6 +1,8 @@
 
-if game.PlaceId == "2753915549" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/Blox%20Fruits"))()
-elseif game.PlaceId == "537413528" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/Build%20A%20Boat"))()
+local gamelist = {
+    [994732206]  = "https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/Blox%20Fruits"
+}
+local checkgame = gamelist[game.gameId]
+if gamelist[game.gameId] then 
+    loadstring(game:HttpGet(checkgame))()
 end
