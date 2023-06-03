@@ -1,1 +1,1 @@
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/BloxFruitsMobile",true))()
