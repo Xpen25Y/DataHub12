@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded();
 if game.PlaceId==2753915549 or game.PlaceId==4442272183 or game.PlaceId==7449423635 then 
     if _G.Script_Mode=="KaiTun"then 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/CreamSoScute/main/LoadP.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/KaiTun",true))()
     else 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/Blox%20Fruits",true))()
     end 
