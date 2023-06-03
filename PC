@@ -8,5 +8,5 @@ if game.PlaceId==2753915549 or game.PlaceId==4442272183 or game.PlaceId==7449423
 elseif game.PlaceId==537413528 then 
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Xpen25Y/DataHub12/main/Build%20A%20Boate",true))()
 else game.Players.LocalPlayer:Kick("แมพนี้ยังไมไ่ด้อยู่ในรายการของ Data Hub")
-    wait(1)game:Shutdown()
+    wait(5)game:Shutdown()
 end
